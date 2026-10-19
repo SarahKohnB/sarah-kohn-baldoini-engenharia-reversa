@@ -20,3 +20,7 @@ function descriptografar(valor) {
 }
 
 module.exports = { criptografar, descriptografar };
+
+//aqui é onde o cpf é embaralhado (criptografado) antes de ir pro banco e desembaralhado 
+//quando precisa aparecer na tela. a criptografia é reversível porque o cpf precisa voltar ao normal, 
+//diferente da senha que usa hash e não tem volta. a chave está escrita direto no código, o que é um ponto fraco
