@@ -89,3 +89,5 @@ document.getElementById('form-novo').addEventListener('submit', async e => {
         avisar(err.message, 'erro');
     }
 });
+//script da tela de agendamentos. carrega a lista, que já vem ordenada do servidor, e escreve um título de mês sempre que o mês muda 
+//permite criar um agendamento novo escolhendo o veículo e alterar só a data de um que já existe
