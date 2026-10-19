@@ -46,3 +46,5 @@ document.getElementById('form').addEventListener('submit', async e => {
         avisar(err.message, 'erro');
     }
 });
+//script da tela de veículos. carrega a lista de veículos com o nome do dono e, quando clica em novo
+//busca os clientes pra preencher a lista de escolher o cliente, porque todo veículo precisa de um cliente. essa tela só cadastra, não tem edição.
