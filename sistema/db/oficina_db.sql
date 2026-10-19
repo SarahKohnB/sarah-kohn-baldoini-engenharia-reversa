@@ -63,3 +63,7 @@ INSERT INTO agendamentos (veiculo_id, data_agendamento, servico) VALUES
 (2, '2026-10-25', 'Troca de óleo'),
 (1, '2026-11-05', 'Alinhamento e balanceamento'),
 (4, '2026-11-20', 'Troca de pastilhas de freio');
+
+--aqui fica a estrutura do banco, com as 4 tabelas (usuarios, clientes, veiculos e agendamentos) e os dados iniciais pra testar.
+--um cliente pode ter vários veículos e um veículo pode ter vários agendamentos, ligados por chaves estrangeiras. a senha fica guardada como hash bcrypt 
+--e o cpf criptografado.
