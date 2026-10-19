@@ -26,3 +26,6 @@ document.getElementById('form-login').addEventListener('submit', async (e) => {
         mostrarErro(err.message);   // falha de autenticação: informa e fica no login
     }
 });
+// script da tela de login. quando a pessoa clica em entrar, manda o usuário e a senha pro
+//servidor e, se der certo, vai pra tela principal, e se der erro mostra a mensagem na própria tela
+//também mostra o aviso de sessão expirada quando a pessoa foi mandada de volta pro login
