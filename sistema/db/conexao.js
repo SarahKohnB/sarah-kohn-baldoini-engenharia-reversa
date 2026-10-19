@@ -15,4 +15,5 @@ if (primeiraVez) {
 }
 
 module.exports = db;
-//esse arquivo abre o banco de dados e, na primeira vez que o sistema roda, cria as tabelas e os dados iniciais a partir do oficina_db.sql. também deixa ligada a proteção das chaves estrangeiras, e o server.js usa essa conexão pra falar com o banco
+//esse arquivo abre o banco de dados e, na primeira vez que o sistema roda, cria as tabelas e os dados iniciais 
+//a partir do oficina_db.sql. também deixa ligada a proteção das chaves estrangeiras, e o server.js usa essa conexão pra falar com o banco
