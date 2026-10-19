@@ -57,3 +57,6 @@ document.getElementById('form').addEventListener('submit', async e => {
         avisar(err.message, 'erro');
     }
 });
+
+//script da tela de clientes. carrega a lista, faz a busca (pelo botão ou pelo Enter) e usa o mesmo formulário (modal)
+//pra cadastrar e editar: se tem um cliente sendo editado manda PUT, se não, manda POST. depois de salvar mostra um aviso e atualiza a lista
