@@ -1,0 +1,22 @@
+{
+  "name": "sarah-kohn-baldoini-engenharia-reversa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarahKohnB/sarah-kohn-baldoini-engenharia-reversa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SarahKohnB/sarah-kohn-baldoini-engenharia-reversa/issues"
+  },
+  "homepage": "https://github.com/SarahKohnB/sarah-kohn-baldoini-engenharia-reversa#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6"
+  }
+}
